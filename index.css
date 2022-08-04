@@ -124,6 +124,10 @@ img {
     font-style: italic;
     color: #1f2937;
 }
+.name {
+    display: flex;
+    justify-content: end;
+}
 .container4 {
     display: flex;
     flex-direction: column;
@@ -162,6 +166,17 @@ img {
     border-radius: 10px;
 }
 
+.footer {
+    display: flex;
+    padding: 30px;
+    background-color: #1f2937;
+    width: 100%;
+    justify-content: center;
+}
+.copyright {
+    color:#F9FAF8;
+    font-size: 12px;
+}
 * { 
     outline: 1px solid red;
     outline-offset: -1px;
