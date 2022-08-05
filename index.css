@@ -45,6 +45,7 @@ a {
     background-color: #1f2937;
     padding: 30px;
 }
+
 img {
     height: 150px;
     width: 150px;
@@ -110,12 +111,24 @@ img {
     gap: 40px;
 }
 .box {
+    display: flex;
+    flex-direction: column;
     width: 100px;
     height: 100px;
     outline: 2px solid #3882F6;
     border-radius: 20%;
+    border-image: fill;
+    gap: 8px;
 }
-
+.caption {
+    text-align: center;
+    font-size: 12px;
+}
+.design {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
 
 .container3{
     display: flex;
